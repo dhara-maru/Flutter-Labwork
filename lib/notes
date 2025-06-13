@@ -1,0 +1,27 @@
+//positional optional paramterers :
+//void pow(int a, [int b=optional, int c=2, int d=n])//always in last. positional
+//===============================================================================
+
+//arrow func
+add(a,b)=>a+b;
+//============================================================================
+
+//named optional param:
+add(5, b:6);  //0 is named opt
+void add(int a, {int b=0}){
+print(a+b);
+}
+
+void add({int a, int b=0}){
+print(a+b);
+}
+
+void add({required int a, int b=0}){    //passing 'a' is must when calling
+print(a+b);
+}
+
+//passing a list
+void fun(int a, [List? b]){
+var templist = b??[1,2,3,4];
+print(templist)
+}

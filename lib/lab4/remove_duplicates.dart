@@ -13,3 +13,9 @@ void main(){
   print("Unique elements: $unique");
 
 }
+
+//d??=a;  //null aware
+//d=a??5; //null assign
+
+//a..add()..sub()   //cascade operator //2 at a time calling
+//myl..add(80)..sort()

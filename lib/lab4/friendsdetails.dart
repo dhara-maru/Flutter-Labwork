@@ -1,13 +1,13 @@
 import 'dart:io';
 
 void main(){
-  Map friends = {
-    "Dhara" : "Just a Chill Guy",
-    "Udit" : "Also a Chill guy",
-    "Hetvi" : "Short Tempered",
-    "Khushi" : "Self Obsessed",
-    "Riya" : "Always Mad for some reason",
-    "Madhav" : "Sensitive Dude"
+  Map<String, Object> friends = {
+    "Dhara" : {"ID":101, "City":"Morbi"},
+    "Udit" : {"ID":102, "City":"Rajkot"},
+    "Hetvi" : {"ID":103, "City":"Morbi"},
+    "Khushi" : {"ID":104, "City":"Rajkot"},
+    "Riya" : {"ID":105, "City":"Rajkot"},
+    "Madhav" : {"ID":106, "City":"Lunawada"}
   };
 
   print("Enter any friend\'s name : ");
