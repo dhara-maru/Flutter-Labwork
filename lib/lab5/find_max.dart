@@ -1,5 +1,3 @@
-import 'dart:io';
-
 //normal func
 void max(int a,int b){
   print("normal params :- ");

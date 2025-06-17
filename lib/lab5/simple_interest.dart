@@ -19,12 +19,6 @@ void calIntNamed(int p, {int r=3, int n=3}){
 
 void main(){
   var p,r,n;
-  // print("Enter P : ");
-  // p = int.parse(stdin.readLineSync().toString());
-  // print("Enter R : ");
-  // r = int.parse(stdin.readLineSync().toString());
-  // print("Enter N : ");
-  // n = int.parse(stdin.readLineSync().toString());
 
   p=20000;
   r=4;

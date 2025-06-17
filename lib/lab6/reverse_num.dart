@@ -1,4 +1,3 @@
-import 'dart:io';
 //reverse simple
 void revsimple(int n){
 

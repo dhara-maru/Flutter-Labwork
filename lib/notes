@@ -25,3 +25,21 @@ void fun(int a, [List? b]){
 var templist = b??[1,2,3,4];
 print(templist)
 }
+
+
+//class obj constructor
+
+Student s = Student(Name : "Dhara");
+
+///Student({required this.name}){
+
+}
+
+class.f((){
+
+})
+
+
+void d(){
+f();
+}

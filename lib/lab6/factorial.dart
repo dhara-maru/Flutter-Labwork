@@ -1,4 +1,3 @@
-import 'dart:io';
 //simple params
 void factSimple(int n){
   var fact=1;
@@ -27,10 +26,9 @@ void factnamed({int n=10}){
 }
 void main(){
   var n1;
-
 n1=5;
 factnamed();
 factPos();
-factSimple(n);
+factSimple(n1);
 
 }

@@ -1,5 +1,3 @@
-import 'dart:io';
-
 //normal func
 void countSimple(List nums){
   int counteven=0;
@@ -39,7 +37,7 @@ void countNamed({required List Mynums}){    //can't do it without "required"
   int counteven=0;
   int countodd=0;
   print("Positional params :- ");
-  for(int i=0; i<nums.length; i++){
+  for(int i=0; i<Mynums.length; i++){
     if(i%2==0){
       counteven++;
     }else{

@@ -1,5 +1,3 @@
-import 'dart:io';
-
 //normal func
 void fibonacci(int n){
   print("normal params :- ");

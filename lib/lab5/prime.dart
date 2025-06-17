@@ -1,5 +1,3 @@
-import 'dart:io';
-
 //normal func
 int prime(int n){
   int flag=1;

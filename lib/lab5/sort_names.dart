@@ -1,4 +1,4 @@
-//Simple Params
+//simple Params
 void sortByHeight(List names, List heights) {
   for (int i = 0; i < heights.length - 1; i++) {
     for (int j = i + 1; j < heights.length; j++) {

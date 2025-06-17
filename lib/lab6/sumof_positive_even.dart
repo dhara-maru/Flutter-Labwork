@@ -1,4 +1,3 @@
-import 'dart:io';
 //simple sum
 void sumsimple(List nums){
   int possum=0;
