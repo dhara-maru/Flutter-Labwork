@@ -1,22 +1,29 @@
-void main(){
-    Time t1 = Time(12, 4);
-    Time t2 = Time(6,44);
-    Time t1.addition;
-}
+class Time {
+  int hour = 0;
+  int minute = 0;
 
-class Time{
-  late double hour;
-  late double minute;
+  Time(this.hour, this.minute);
 
-  Time(double h, double m){
-    this.hour = h;
-    this.minute = m;
+  void addition(Time t1, Time t2) {
+    minute = t1.minute + t2.minute;
+    hour = t1.hour + t2.hour;
+
+    if (minute >= 60) {
+      hour += minute ~/ 60;
+      minute = minute % 60;
+    }
   }
 
-  void addition(){
-
+  void display() {
+    print("Total Time: ${hour} hours and ${minute} minutes");
   }
-
 }
 
-//add two time objects. addition of two objects.
+void main() {
+  Time obj1 = Time(2, 45);
+  Time obj2 = Time(1, 30);
+  Time result = Time(0, 0);
+
+  result.addition(obj1, obj2);
+  result.display();
+}
